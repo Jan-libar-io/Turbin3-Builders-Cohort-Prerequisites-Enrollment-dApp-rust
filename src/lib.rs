@@ -2,7 +2,6 @@ mod programs;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
     use::bs58;
 
     use std::io::{self, BufRead};
